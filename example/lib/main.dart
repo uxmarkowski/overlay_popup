@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:overlay_popup/overlay_popup.dart';
+import 'package:overlay_popup_entry/overlay_popup_entry.dart';
 
 void main() {
   runApp(const MyApp());

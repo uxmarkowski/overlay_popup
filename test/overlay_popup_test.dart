@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
-import 'package:overlay_popup/overlay_popup.dart';
+import 'package:overlay_popup_entry/overlay_popup_entry.dart';
 
 void main() {
   testWidgets('OverlayPopupController shows and hides popup', (WidgetTester tester) async {

@@ -1,5 +1,5 @@
 
-# overlay_popup
+# overlay_popup_entry
 
 A Flutter package that allows you to display custom pop-up elements through the `Overlay` without needing to wrap your `Scaffold`. It can be controlled through a custom controller, making it easy to show and hide overlay popups dynamically.
 
@@ -11,11 +11,11 @@ A Flutter package that allows you to display custom pop-up elements through the 
 
 ## Getting started
 
-To use `overlay_popup`, add it to your `pubspec.yaml` file:
+To use `overlay_popup_entry`, add it to your `pubspec.yaml` file:
 
 ```yaml
 dependencies:
-  overlay_popup: ^1.0.0
+  overlay_popup_entry: ^1.0.0
 ```
 
 Then run `flutter pub get` to install the package.
@@ -25,7 +25,7 @@ Then run `flutter pub get` to install the package.
 1. Import the package in your Dart file:
 
 ```dart
-import 'package:overlay_popup/overlay_popup.dart';
+import 'package:overlay_popup_entry/overlay_popup_entry.dart';
 ```
 
 2. Create an instance of `OverlayPopupController`:
@@ -51,7 +51,7 @@ Here's a simple example of how to use the `OverlayPopup` in your app:
 
 ```dart
 import 'package:flutter/material.dart';
-import 'package:overlay_popup/overlay_popup.dart';
+import 'package:overlay_popup_entry/overlay_popup_entry.dart';
 
 void main() {
   runApp(MyApp());
